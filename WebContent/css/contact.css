@@ -1,0 +1,114 @@
+.section-header-wrap{
+	background: url("../images/h2s_sec.png") no-repeat center, linear-gradient(to right, #05e6aa, #1cbdf9);
+    background-size: auto, auto;
+	background-size: cover;
+}
+
+.section-headline {
+	max-width: 1170px;
+    width: 95%;
+    margin: 0 auto;
+    height: 90px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.section-headline h2 {
+    float: left;
+    line-height: 90px;
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    padding: 0 23px;
+    font-weight:700;
+}
+
+.section-headline p {
+	float: right;
+	color: #fff;
+	line-height: 90px;
+	font-family: "Titillium Web", sans-serif;
+	padding-right: 23px;
+}
+
+.section-headline p .separator {
+    margin: 0 13px;
+}
+
+.form-wrapper {
+    width: 525px;
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+.register-form-top {
+    background:url(../images/h2s_sec.png), #1cbdf9;
+    background-size: cover;
+}
+
+.register-form-top > h3 {
+    font-weight: 800;
+    color: #FFF;
+}
+
+.register-form-top > p {
+    color: #FFF;
+}
+
+.form-group > label {
+    font-weight: 800;
+}
+
+#contact-info {
+    background:url(../images/register-background.jpg);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(45, 50, 53, 0.9);
+    height: 700px;
+}
+
+.contact-info {
+    margin-top: 170px;
+}
+
+.element > h4 {
+    color: #FFF;
+    font-weight: 800;
+}
+
+.element > p {
+    color: #4DD9B6;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .form-wrapper {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    #contact-info {
+        height: auto;
+    }
+    
+    .contact-info {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) { 
+    .form-wrapper {
+        width: auto;
+    }
+    
+    .contact-info {
+        margin-left: 20px;
+    }
+}
+
+
+
+    
+
+    

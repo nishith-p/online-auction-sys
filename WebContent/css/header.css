@@ -1,0 +1,31 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.header-links > span {
+    font-size: 24px;
+    color: #9D9F9F;
+}
+
+.header-links > span:hover {
+    color: #00d7b3;
+}
+
+.btn-wrapper > img {
+    border: 3px solid #00d7b3;
+    position: relative;
+    bottom: 7px;
+    width: 60px;
+    height: 60px;
+}
+
+.dropdown-item {
+    color: #2B373A;
+    font-weight: ;
+    transition: all .15s ease;
+    font-size: 15px;
+}
+
+.dropdown-item:hover {
+    border-left: 5px solid #4DD9B6;
+}

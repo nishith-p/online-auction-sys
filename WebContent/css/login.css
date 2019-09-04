@@ -1,0 +1,44 @@
+.login-form {
+    background: #FFF;
+    width: 425px;
+    margin-top: 100px;
+}
+
+.login-form-top {
+    background:url(../images/h2s_sec.png), #1cbdf9;
+    background-size: cover;
+}
+
+.login-form-top > h3 {
+    font-weight: 800;
+    color: #FFF;
+}
+
+.login-form-top > p {
+    color: #FFF;
+}
+
+.form-group > label {
+    font-weight: 800;
+}
+
+.login-btn > button {
+    font-weight: 800;
+}
+
+#user-login {
+    background:url(../images/login-background.jpg);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(45, 50, 53, 0.9);
+    height: 600px;
+}
+
+@media (max-width: 767px) {
+    .login-form {
+        margin-top: 0;
+    }
+    
+    #user-login {
+        height: auto;
+    }
+}
